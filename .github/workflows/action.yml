@@ -6,6 +6,12 @@ branding:
   icon: 'maximize'
   color: 'blue'
 
+on:
+  push:
+    branches:
+      - master
+
+
 inputs:
   matrix-target:
     description: 'The build target to use'
